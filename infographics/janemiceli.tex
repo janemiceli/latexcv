@@ -160,17 +160,17 @@
 \usepackage{xcolor}
 
 %defineColors
-\definecolor{orange}{RGB}{255,150,0}
+\definecolor{green}{RGB}{92,205,121}
 \definecolor{lblue}{RGB}{0,178,255}
 \definecolor{darkblue}{RGB}{0,80,130}
-\definecolor{darkerblue}{RGB}{0,100,160}
+\definecolor{darkerblue}{RGB}{39,84,155}
 \definecolor{lgray}{RGB}{0,120,200}
-\definecolor{powderblue}{RGB}{190,220,255}
+\definecolor{powderblue}{RGB}{205,228,255}
 \definecolor{darkestblue}{RGB}{0,50,80}
 
 
 %main color
-\colorlet{maincol}{orange}
+\colorlet{maincol}{green}
 
 %secondary colors
 \colorlet{secondcol}{lblue}
@@ -332,7 +332,7 @@
 
 \begin{tabular*}{1\textwidth}{ c c c}
 	\parbox[c]{0.4\linewidth}{
-		\colorbox{thirdcol}{\HUGE{\textcolor{titletext}{\textbf{\uppercase{Jane Miceli}}} }}\\
+		\colorbox{darkestblue}{\HUGE{\textcolor{titletext}{\textbf{\uppercase{Jane Miceli}}} }}\\
 		\Large{\textcolor{thirdcol}{\textsc{ Technology Leader}}}\\
 	}&
 	\parbox{0.25\textwidth}{
@@ -406,7 +406,7 @@
 			\slice{43}{Retail}{fourthcol}
 			\slice{6}{Utilities}{fifthcol}
 			\slice{8}{Education}{secondcol}
-			\slice{6}{N/A}{maincol}
+			\slice{6}{Various}{maincol}
 		\end{piechart}\\
 	}
 	%\begin{center}
@@ -491,14 +491,14 @@
 \begin{center}
 
 % TIMELINE
-\begin{cvtimeline}{2000}{2021}{20.6}{\linewidth}
+\begin{cvtimeline}{2000}{2022}{20.6}{\linewidth}
 \cvevent{9/2000}{05/2004}{Bachelor Studies @UWM}{UWM}
     {text a}{thirdcol}{0}
 
 \cvevent{9/2004}{05/2008}{Masters Studies @UWM}{UW-Milwaukee}
     {Thesis: Authenticated mail servers}{thirdcol}{2}
 
-\cvevent{3/2002}{06/2007}{QA @RA}{Rockwell Automation}
+\cvevent{3/2002}{06/2007}{QA @ROK}{Rockwell Automation}
     {text a}{maincol}{0}
 
 \cvevent{6/2007}{10/2008}{Firmware Engineer @HP}{Bodybuilding.com}
@@ -516,7 +516,7 @@
 cvevent{9/2013}{11/2014}{DevOps @Sensus}{Xlyem, formerly Sensus}
     {text a}{maincol}{0}
 
-\cvevent{11/2014}{2/2018}{Lead SRE @HP}{HP Inc}
+\cvevent{11/2014}{2/2018}{Lead SRE @HPI}{HP Inc}
     {text a}{maincol}{0}
 
 \cvevent{2/2018}{12/2019}{Cloud Architect @MU}{Micron}
@@ -528,17 +528,17 @@ cvevent{9/2013}{11/2014}{DevOps @Sensus}{Xlyem, formerly Sensus}
 \cvevent{7/2019}{07/2019}{DefCon}{Conference}
     {Text a}{secondcol}{0}    
 
-\cvevent{12/2019}{1/2021}{Lead/Principal Engineer @Taos}{IBM, Formerly Taos}
+\cvevent{12/2019}{1/2021}{Lead/Principal @Taos}{IBM, Formerly Taos}
     {text a}{maincol}{0}
     
 \cvevent{1/2021}{1/2021}{SRE Leader @Kohl's}{Kohl's}
     {text a}{maincol}{0}    
      
 \end{cvtimeline}
-\tiny @HP = Hewlett-Packard
-\tiny @RA = Rockwell Automation
-\tiny @SBLS = Silverback Learning Solutions
-\tiny @UWM = University of Wisconsin - Milwaukee
+\tiny HP = Hewlett-Packard |
+\tiny ROK = Rockwell Automation | 
+\tiny SBLS = Silverback Learning Solutions |
+\tiny UWM = University of Wisconsin - Milwaukee 
 \end{center}
 \end{minipage}
 %============================================================================%
