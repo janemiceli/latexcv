@@ -15,3 +15,9 @@ See the main.pdf file for example output.
 The build does only relie on pdflatex and the packages, including the dependencies listet in the main readme.
 
 ![Preview Image](http://jankuester.com/wp-content/uploads/infographics-cv.png "Example Output Preview")
+
+Compile with:
+```
+$ pdflatex janemiceli.tex 
+```
+Should yield janemiceli.pdf 
