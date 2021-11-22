@@ -36,15 +36,13 @@
 %============================================================================%
 
 %we use article class because we want to fully customize the page
-\documentclass[10pt,A4]{article}	
-
-
+\documentclass[10pt,Letter]{article}
 %----------------------------------------------------------------------------------------
 %	ENCODING
 %----------------------------------------------------------------------------------------
 
 %we use utf8 since we want to build from any machine
-\usepackage[utf8]{inputenc}		
+\usepackage[utf8]{inputenc}
 
 %----------------------------------------------------------------------------------------
 %	LOGIC
@@ -333,17 +331,17 @@
 \begin{tabular*}{1\textwidth}{ c c c}
 	\parbox[c]{0.4\linewidth}{
 		\colorbox{darkestblue}{\HUGE{\textcolor{titletext}{\textbf{\uppercase{Jane Miceli}}} }}\\
-		\Large{\textcolor{thirdcol}{\textsc{ Technology Leader}}}\\
+		\Large{\textcolor{thirdcol}{\textsc{Technology Leader}}}\\
 	}&
 	\parbox{0.25\textwidth}{
-	\icontext{MapMarker}{12}{Idaho, USA}\\
+	\icontext{MapMarker}{12}{Boise ,Idaho, USA}\\
 	\icontext{MobilePhone}{12}{+1-414-828-5263}\\
 	\icontext{Send}{12}{jane@janemiceli.com}\\
 	}&
 	\parbox{0.3\textwidth}{
-	\icontext{MousePointer}{12}{www.janemiceli.com}\\
-	\icontext{Github}{12}{github.com/janemiceli}\\
-	\icontext{Twitter}{12}{@janemiceli}\\
+	\icontext{MousePointer}{12}{janemiceli.com}\\
+	\icontext{Github}{12}{janemiceli}\\
+	\icontext{Twitter}{12}{janemiceli}\\
 	}
 \end{tabular*}
 
@@ -476,7 +474,7 @@
 \begin{minipage}{0.05\textwidth}
 	\begin{center}
 		\begin{tikzpicture}
-			\draw[draw=sectcol,dashed, opacity=0.5] (0,-12) -- (0,12);
+			%\draw[draw=sectcol,dashed, opacity=0.5] (0,-12) -- (0,12);
 		\end{tikzpicture}
 	\end{center}
 \end{minipage}
@@ -495,13 +493,13 @@
 \cvevent{9/2000}{05/2004}{Bachelor Studies @UWM}{UWM}
     {text a}{thirdcol}{0}
 
-\cvevent{9/2004}{05/2008}{Masters Studies @UWM}{UW-Milwaukee}
+\cvevent{9/2004}{05/2008}{Master Studies @UWM}{UWM}
     {Thesis: Authenticated mail servers}{thirdcol}{2}
 
 \cvevent{3/2002}{06/2007}{QA @ROK}{Rockwell Automation}
     {text a}{maincol}{0}
 
-\cvevent{6/2007}{10/2008}{Firmware Engineer @HP}{Bodybuilding.com}
+\cvevent{6/2007}{10/2008}{Firmware Engineer @HP}{HP}
     {text a}{maincol}{0}
 
 \cvevent{10/2008}{3/2010}{QA Engineer @BBCOM}{Bodybuilding.com}
@@ -513,10 +511,10 @@
 \cvevent{1/2012}{9/2013}{Software Engineer @SBLS}{SBLS}
     {text a}{maincol}{0}
 
-cvevent{9/2013}{11/2014}{DevOps @Sensus}{Xlyem, formerly Sensus}
+\cvevent{9/2013}{11/2014}{DevOps @Sensus}{Xlyem, formerly Sensus}
     {text a}{maincol}{0}
 
-\cvevent{11/2014}{2/2018}{Lead SRE @HPI}{HP Inc}
+\cvevent{11/2014}{2/2018}{Lead SRE @HP}{HP Inc}
     {text a}{maincol}{0}
 
 \cvevent{2/2018}{12/2019}{Cloud Architect @MU}{Micron}
@@ -526,21 +524,28 @@ cvevent{9/2013}{11/2014}{DevOps @Sensus}{Xlyem, formerly Sensus}
     {Text a}{secondcol}{0}    
 
 \cvevent{7/2019}{07/2019}{DefCon}{Conference}
-    {Text a}{secondcol}{0}    
+    {Text a}{secondcol}{0}
 
-\cvevent{12/2019}{1/2021}{Lead/Principal @Taos}{IBM, Formerly Taos}
+\cvevent{12/2019}{1/2021}{Principal Eng @Taos}{IBM, Formerly Taos}
     {text a}{maincol}{0}
     
-\cvevent{1/2021}{1/2021}{SRE Leader @Kohl's}{Kohl's}
+\cvevent{1/2021}{1/2022}{Sr Mgr SRE @Kohl's}{Kohl's}
     {text a}{maincol}{0}    
      
 \end{cvtimeline}
-\tiny HP = Hewlett-Packard |
-\tiny ROK = Rockwell Automation | 
-\tiny SBLS = Silverback Learning Solutions |
+
+\end{center}
+
+
+\end{minipage}
+\begin{center}
+\tiny BBCOM = bodybuilding.com,
+\tiny HP = Hewlett-Packard,
+\tiny MU = Micron Technology, 
+\tiny ROK = Rockwell Automation, 
+\tiny SBLS = Silverback Learning Solutions, 
 \tiny UWM = University of Wisconsin - Milwaukee 
 \end{center}
-\end{minipage}
 %============================================================================%
 %
 %
